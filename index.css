@@ -35,7 +35,6 @@ nav ul li a{
   display: flex;
   flex-direction: row;
   align-items: center;
-
   justify-content: space-around;
 }
 
@@ -54,6 +53,7 @@ nav ul li a:active {
   color: #48aae6;
   text-decoration: underline;
 }
+
 .fa-twitter-square{
   font-size: 30px;
   color: #48aae6;
@@ -67,6 +67,7 @@ nav ul li a:active {
   border-radius: 10px;
   box-sizing: border-box;
 }
+
 .menu img {
   width: 43px;
   height: 32px;
@@ -83,8 +84,16 @@ nav ul li a:active {
   cursor: pointer;
 }
 
-.page {
+.follow-btn {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  width: 80px;
+  cursor: pointer;
+}
 
+.page {
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -104,7 +113,6 @@ nav ul li a:active {
 }
 
 .profile {
-
   display: flex;
   flex-direction: column;
   width: 280px;
@@ -116,9 +124,7 @@ nav ul li a:active {
 
 .profile-picture {
   background-color: #48aae6;
-  /*height: 100px;*/
   padding-top: 20px;
-
 }
 
 .profile-picture img {
@@ -138,22 +144,28 @@ nav ul li a:active {
   border-spacing: 5px;
 }
 
+.stats td{
+  color: #48aae6;
+}
+
  h2, h4, p {
   margin: 5px;
 }
 
 .trends {
-  border: 1px solid yellow;
-  width: 200px;
+  background-color: white;
+  color: #48aae6;
+  width: 300px;
   height: 300px;
-  margin: 5px;
+  margin-top: 30px;
+  padding: 10px;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
 .tweet-box{
-  margin: 10px;
   background-color: #e8f4fb;
+  width: 100%;
 }
 
 .tweet-form {
@@ -163,19 +175,37 @@ nav ul li a:active {
   border: none;
   border-radius: 5px;
 }
+
 .timeline {
-outline: 1px solid red;
   width: 450px;
   box-sizing: border-box;
 }
 
+.new-tweet {
+  margin-bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+}
+
+.new-tweet header {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.new-tweet p {
+  text-align: justify;
+}
+
 .side-nav2 {
-  border: 1px solid black;
-  box-sizing: border-box;
-  width: 250px;
+  background-color: white;
+  color: #48aae6;
+  width: 300px;
+  height: 400px;
   box-sizing: border-box;
 }
 
 .side-nav2 p {
   display: inline-block;
+  margin: 5px;
 }
