@@ -18,7 +18,7 @@ body {
 
 nav {
   width: 100%;
-  margin: 20px 0;
+  background-color: white;
 }
 
 nav ul {
@@ -41,7 +41,6 @@ nav ul li a{
 nav ul li a:link {
   color: grey;
   text-decoration: none;
-
 }
 
 nav ul li a:hover {
@@ -64,6 +63,7 @@ nav ul li a:active {
   padding: 8px;
   margin: 8px;
   border: none;
+  background-color: #f5f8fa;
   border-radius: 10px;
   box-sizing: border-box;
 }
@@ -182,10 +182,15 @@ nav ul li a:active {
 }
 
 .new-tweet {
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
+  border-bottom: 1px solid  #f5f8fa;
   width: 100%;
   padding: 5px;
   background-color: white;
+}
+
+.new-tweet:hover {
+  background-color: #f5f8fa;
 }
 
 .new-tweet header {
